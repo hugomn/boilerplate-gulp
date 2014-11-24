@@ -1,0 +1,46 @@
+{
+  "name": "boilerplate-gulp",
+  "version": "1.0.0",
+  "authors": [
+    "Hugo Magalhães <hugomn@gmail.com>"
+  ],
+  "description": "A boilerplate project using cutting edge streaming build technologies with gulp.js",
+  "main": "dist/index.html",
+  "keywords": [
+    "boilerplate",
+    "gulp.js",
+    "html5",
+    "css3"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hugomn/boilerplate-gulp",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "source"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  },
+  "overrides": {
+    "jquery": {
+      "main": [
+          "dist/jquery.js",
+          "dist/jquery.min.js",
+          "dist/jquery.min.map"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/css/bootstrap.min.css",
+        "dist/js/bootstrap.js",
+        "dist/js/bootstrap.min.js"
+      ]
+    }
+  }
+}
